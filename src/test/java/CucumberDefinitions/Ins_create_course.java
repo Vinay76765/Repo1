@@ -37,8 +37,7 @@ public class Ins_create_course {
 		Instructor_create_course ins_course = new Instructor_create_course(driver);
 		ins_course.working_title(title);
 	    System.out.println("success");
-	    System.out.println("success");
-	    System.out.println("success");
+	    
 		
 	}
 
