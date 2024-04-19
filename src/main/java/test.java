@@ -18,7 +18,7 @@ public class test {
 		WebElement x1 = driver.findElement(By.name("password"));
 		x.sendKeys(Keys.CONTROL,"ac");
 		x1.sendKeys(Keys.CONTROL,"v");
-		System.out.println("Code changed");
+		System.out.println("Code changed");//iuut7u67u76u76
 		
 	}
 
