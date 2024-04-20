@@ -38,7 +38,7 @@ public class Landing_Page {
 	
 	public String Verify_Landing_Page()
 	{
-		Abstract_Component abs=new Abstract_Component(driver);
+		
 		abs.waitForWebElementToAppear(Land_Text);
 		String Text = Land_Text.getText();
 		
