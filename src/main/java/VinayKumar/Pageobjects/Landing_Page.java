@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import VinayKumar.AbstractComponents.Abstract_Component;
 
+
 public class Landing_Page {
 	
 	WebDriver driver;
@@ -37,9 +38,10 @@ public class Landing_Page {
 	
 	public String Verify_Landing_Page()
 	{
-abs.waitForWebElementToAppear(Land_Text);
+		Abstract_Component abs=new Abstract_Component(driver);
+		abs.waitForWebElementToAppear(Land_Text);
 		String Text = Land_Text.getText();
-		System.out.println("Honnali");
+		
 		
 		return Text;
 	}
