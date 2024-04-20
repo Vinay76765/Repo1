@@ -65,6 +65,7 @@ public class Login_Ins  {
 		Account_btn.click();
 		Logout_lnk.click();
 		Thread.sleep(5000);
+		System.out.println("Hii this is develop branch code change");
 	}
 	
 	public void loginapp_email(String username, String Password) throws InterruptedException
