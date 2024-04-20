@@ -39,6 +39,7 @@ public class Landing_Page {
 	{
 abs.waitForWebElementToAppear(Land_Text);
 		String Text = Land_Text.getText();
+		System.out.println("Honnali");
 		
 		return Text;
 	}
@@ -51,7 +52,7 @@ abs.waitForWebElementToAppear(Land_Text);
 //		Login_btn.click();
 //	}
 //	
-//	
+    
 	
 	
 }
