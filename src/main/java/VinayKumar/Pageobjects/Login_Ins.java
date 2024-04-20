@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import VinayKumar.AbstractComponents.Abstract_Component;
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class Login_Ins  {
 
@@ -48,7 +49,7 @@ public class Login_Ins  {
 	
 	@FindBy(xpath="//button[normalize-space()='Logout']")
 	WebElement Logout_lnk;
-	
+    
 	
 	
 	
@@ -65,7 +66,7 @@ public class Login_Ins  {
 		Account_btn.click();
 		Logout_lnk.click();
 		Thread.sleep(5000);
-		System.out.println("Hii develop how are you");
+
 	}
 	
 	public void loginapp_email(String username, String Password) throws InterruptedException
@@ -88,5 +89,5 @@ public class Login_Ins  {
 	
 	
 	
-	
 }
+
