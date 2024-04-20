@@ -19,7 +19,7 @@ public class test {
 		x.sendKeys(Keys.CONTROL,"ac");
 		x1.sendKeys(Keys.CONTROL,"v");
 		System.out.println("Code changed");//iuut7u67u76u76
-		System.out.println("now commit");
+		//eewrewrewrwere
 		
 	}
 
